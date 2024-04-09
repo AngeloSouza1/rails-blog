@@ -20,7 +20,12 @@
     </div>
   <% end %>
   <div id="edit-form-<%=comment.id%>" class="d-none">
-    <%= render "comments/form", post: @post, comment: comment %>
+    <%= render "comments/form",
+               post: @post,
+               comment: comment,
+               submit_label: "Update"
+
+    %>
   </div>
   <hr/>
   <div id="comment-body-<%= comment.id %>" class="d-none">

@@ -64,3 +64,7 @@ group :development do
   gem 'devise'
 end
 
+
+gem "ransack", "~> 4.1"
+
+gem "dockerfile-rails", ">= 1.6", :group => :development

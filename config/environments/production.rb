@@ -3,7 +3,7 @@ require "active_support/core_ext/integer/time"
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   # Adiciona o hostname permitido
-  config.hosts << "rails-blog-10cc.onrender.com"
+
   # Code is not reloaded between requests.
   config.enable_reloading = false
 

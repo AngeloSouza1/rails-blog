@@ -1,7 +1,11 @@
 source "https://rubygems.org"
 
 ruby "3.0.2"
+gem "ransack", "~> 4.1"
 
+gem 'pg'
+
+gem 'devise'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3"
 
@@ -9,7 +13,7 @@ gem "rails", "~> 7.1.3"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+#gem "sqlite3", "~> 1.4"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
@@ -49,6 +53,9 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
 end
 
+
+
+
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
@@ -59,12 +66,11 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
-  gem 'pg'
-
-  gem 'devise'
 end
 
 
-gem "ransack", "~> 4.1"
+
+
+
 
 gem "dockerfile-rails", ">= 1.6", :group => :development

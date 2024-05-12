@@ -1,7 +1,7 @@
 databases:
   - name: mysite
-    databaseName: postgresql_railsblog
-    user: postgresql_railsblog_user
+    databaseName: mysite_4xih
+    user: mysite_4xih_user
     plan: free
 
 services:

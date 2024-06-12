@@ -45,11 +45,7 @@ Assista a este vídeo sobre sua funcionalidade
 https://github.com/AngeloSouza1/rails-blog/assets/104176076/71256faa-621d-413d-97df-520333b1b828
 
 
-<br>
-<a href="https://mysite-lq0f.onrender.com">
-    <img src="https://img.shields.io/badge/ACESSO AO%20PROJETO!-gray" alt="Site">
-<br>
-</a>
+
 
 
 
